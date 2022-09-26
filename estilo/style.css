@@ -15,10 +15,11 @@
 }
 
 body{
-    background-image: url(/img/feria.jpg);
+    background: url(../img/feria.jpg);
     height: 100vh;
     width: 100vw;
     background-size: cover;
+    
 }
 
 main{
@@ -42,8 +43,7 @@ section#login{
 }
 
 section#login > div#img{
-    display: block;
-    background: url(/img/cor.jpg) no-repeat;
+    background: url(../img/cor.jpg) no-repeat;
     height: 200px;
     background-size: cover;
 }
@@ -51,4 +51,5 @@ section#login > div#img{
 section#login > div#form{
     display: block;
     padding: 10px;
+
 }
