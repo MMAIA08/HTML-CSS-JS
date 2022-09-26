@@ -38,6 +38,8 @@ section#login{
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
+
+    transition: width 2s, height 2s;
     
 }
 
