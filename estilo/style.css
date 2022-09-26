@@ -43,7 +43,7 @@ section#login{
 }
 
 section#login > div#img{
-    background: url(../img/cor.jpg) no-repeat;
+    background-color: blue;
     height: 200px;
     background-size: cover;
 }
