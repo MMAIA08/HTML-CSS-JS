@@ -2,6 +2,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
+body{
+    background-image: linear-gradient(to top, #001FB8, #FFCE38);
+}
+
+
 section#login{
     width: 90vw;
 }
@@ -22,6 +27,9 @@ section#login > div#form{
 
 @media screen and (min-width: 992px) {
     
+    body{
+        background-image: linear-gradient(to top, #001FB8, #FFCE38);
+    }
     
     section#login{
     width: 950px;
