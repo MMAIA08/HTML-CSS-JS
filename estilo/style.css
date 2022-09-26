@@ -19,7 +19,6 @@ body{
     height: 100vh;
     width: 100vw;
     background-size: cover;
-    
 }
 
 main{
@@ -43,7 +42,7 @@ section#login{
 }
 
 section#login > div#img{
-    background-color: blue;
+    background: url(../img/cor.jpg) no-repeat;
     height: 200px;
     background-size: cover;
 }
