@@ -67,3 +67,40 @@ div#form > p{
     text-indent: 10px;
     
 }
+
+#entra{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:#001fb89a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#entra:hover{
+    background-color: #041466;
+    font-weight: bold;
+}
+
+
+.botao{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    background-color:white ;
+    color: white;
+    border-radius: 5px;
+    border: none;  
+    color: rgb(3, 3, 41); 
+    text-align: center;
+    border:1px solid ;
+    margin-top: 5px;
+}
+
+.botao:hover{
+    background-color: #001fb89a;
+}
