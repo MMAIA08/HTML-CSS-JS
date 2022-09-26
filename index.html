@@ -7,6 +7,7 @@
     <title>Tela de Login</title>
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
     <main>
@@ -17,14 +18,20 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja Bem-vindo(a) novamente. faça login para acessar sua conta e poder fazer suas configurações no seu ambiente</p>
-                <form action="longin.php" method="post">
-                    <p>
-                        <input type="email" name="" id="">
-                    </p>
-                    <p><input type="password" name="" id=""></p>
+                <form action="longin.php" method="post" autocomplete="on">
+                   <div class="campo">
+                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30"> 
+                        <label for="ilogin"><i class="material-icons">person</i>
 
-                    <input type="submit" value="entrar">
-                    <input type="submit" value="Esquici a Senha">
+                        </label>
+                   </div>
+                   <div class="campo">
+                        <input type="password" name="Senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="6" maxlength="12">
+                        <label for="isenha"><i class="material-icons">vpn_key</i>
+                        </label>
+                        <input type="submit" value="Entrar">
+                        <a href="esqueci.html">Esqueci a senha <i class="material-icons">mail</i></a>
+                   </div>
                 </form>
             </div>
         </section>

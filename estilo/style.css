@@ -39,7 +39,7 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
 
-    transition: width .7s, height .7s;
+    transition: width .4s, height .4s;
     transition-timing-function: ease;
     
 }
@@ -61,15 +61,9 @@ h1{
     margin-bottom: 20px;
 }
 
-p{
+div#form > p{
+    font-size: 0.8em;
     text-align: justify;
     text-indent: 10px;
-    margin-bottom: 5px;
-}
-
-input{
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    width: 150px;
+    
 }
